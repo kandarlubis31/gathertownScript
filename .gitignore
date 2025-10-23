@@ -1,0 +1,69 @@
+# Node modules
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Chrome user data (berisi session login)
+gather-chrome-data/
+
+# Log files
+*.log
+*.bak.log
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.settings/
+.classpath
+
+# Build output
+dist/
+build/
+out/
+
+# Temporary files
+*.tmp
+*.temp
+temp/
+tmp/
+
+# Package manager lock files (opsional, tergantung preferensi)
+# package-lock.json
+# yarn.lock
+
+# Coverage directory
+coverage/
+*.lcov
+
+# Debug files
+*.log.*
+debug.log
+
+# Local configuration
+config.local.js
+config.local.json
+
+# Screenshots (jika ada)
+screenshots/
+*.png
+*.jpg
+*.jpeg
+
+# Backup files
+*.backup
+*.bak
