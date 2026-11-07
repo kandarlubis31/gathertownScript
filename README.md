@@ -1,25 +1,25 @@
-# 🤖 Gather Auto Online Bot
+# Gather Auto Online Bot
 
 Bot otomatis untuk menjaga status online di Gather.town selama jam kerja. Bot ini akan menggerakkan karakter secara periodik untuk mencegah status idle/away.
 
-## ✨ Fitur
+## Fitur
 
-- ✅ **Auto Login**: Otomatis masuk ke Gather space
-- ⏰ **Jadwal Kerja**: Hanya aktif pada jam kerja yang ditentukan
-- 🚶 **Gerakan Natural**: Simulasi gerakan karakter secara acak (W/A/S/D)
-- 🔇 **Auto Mute**: Otomatis menonaktifkan mic dan kamera
-- 🪟 **Minimize Window**: Minimize browser untuk hemat resource
-- 📊 **Logging Detail**: Log semua aktivitas ke file
-- 🔄 **Auto Retry**: Otomatis restart jika terjadi error
-- 💾 **Session Persistent**: Menyimpan session login Chrome
+- **Auto Login**: Otomatis masuk ke Gather space
+- **Jadwal Kerja**: Hanya aktif pada jam kerja yang ditentukan
+- **Gerakan Natural**: Simulasi gerakan karakter secara acak (W/A/S/D)
+- **Auto Mute**: Otomatis menonaktifkan mic dan kamera
+- **Minimize Window**: Minimize browser untuk hemat resource
+- **Logging Detail**: Log semua aktivitas ke file
+- **Auto Retry**: Otomatis restart jika terjadi error
+- **Session Persistent**: Menyimpan session login Chrome
 
-## 📋 Prerequisites
+## Prerequisites
 
 - Node.js (v14 atau lebih tinggi)
 - npm atau yarn
 - Chrome/Chromium browser
 
-## 🚀 Instalasi
+## Instalasi
 
 1. Clone repository ini:
 ```bash
@@ -45,7 +45,7 @@ const CONFIG = {
 };
 ```
 
-## 🎮 Cara Penggunaan
+## Cara Penggunaan
 
 ### Jalankan Bot:
 ```bash
@@ -55,7 +55,7 @@ node gather-bot.js
 ### Hentikan Bot:
 Tekan `Ctrl + C` di terminal
 
-## ⚙️ Konfigurasi
+## Konfigurasi
 
 | Parameter | Deskripsi | Default |
 |-----------|-----------|---------|
@@ -70,7 +70,7 @@ Tekan `Ctrl + C` di terminal
 | `maxRetries` | Maksimal retry jika error | 3 |
 | `timeout` | Timeout operasi (ms) | 120000 |
 
-## 📂 Struktur File
+## Struktur File
 
 ```
 gathertownScript/
@@ -82,7 +82,7 @@ gathertownScript/
 └── README.md              # Dokumentasi ini
 ```
 
-## 📝 Log File
+## Log File
 
 Bot akan membuat file log `gather-bot.log` yang berisi:
 - Timestamp setiap aktivitas
@@ -92,7 +92,7 @@ Bot akan membuat file log `gather-bot.log` yang berisi:
 
 Log akan otomatis di-rotate jika ukuran mencapai 2MB.
 
-## 🔧 Troubleshooting
+## Troubleshooting
 
 ### Bot tidak bisa login
 - Pastikan URL Gather space sudah benar
@@ -110,22 +110,32 @@ Log akan otomatis di-rotate jika ukuran mencapai 2MB.
 - Bot akan otomatis menonaktifkan setelah join
 - Pastikan permission sudah diizinkan di Chrome
 
-## ⚠️ Disclaimer
+## Disclaimer
 
 Bot ini dibuat untuk tujuan **edukasi dan automasi personal**. Pengguna bertanggung jawab penuh atas penggunaan bot ini. Pastikan penggunaan bot sesuai dengan kebijakan perusahaan/organisasi Anda.
 
-## 🤝 Kontribusi
+## Kontribusi
 
 Kontribusi selalu diterima! Silakan buat Pull Request atau laporkan issue.
 
-## 📄 Lisensi
+---
 
-MIT License - Silakan gunakan dan modifikasi sesuai kebutuhan.
+## English
 
-## 👨‍💻 Author
+**Gather Auto Online Bot** keeps a Gather.town character online during working hours by moving it periodically, so the status never drops to idle or away.
 
-Dibuat dengan ❤️ untuk kemudahan kerja remote
+It logs in automatically, moves with natural random input, mutes the microphone and camera, keeps the Chrome session for the next run, and writes a detailed activity log.
 
 ---
 
-**⭐ Jika project ini bermanfaat, jangan lupa beri star!**
+## Lisensi
+
+MIT License - Silakan gunakan dan modifikasi sesuai kebutuhan.
+
+## Author
+
+Dibuat dengan untuk kemudahan kerja remote
+
+---
+
+**Jika project ini bermanfaat, jangan lupa beri star!**
